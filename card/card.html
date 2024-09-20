@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card UI Design</title>
+    <!-- 주석 ctrl + / css 링크-->
+     <link rel="stylesheet" href="style.css">
+     <!-- Boxicons 제공 아이콘 사용 링크 적용 -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<!-- 바디에서 플렉스 가운데 정렬(가로, 세로) gka -->
+<body>
+    <!-- 플레스를 바디(부모)에서 사용하면 자식이 정렬된다 -->
+    <div class="profile-card">
+        <div class="image">
+            <img src="profile.jpg" alt="아이유사진" class="profile-img">
+        </div>
+        
+        <div class="text-data">
+            <span class="name">IU</span>
+            <span class="job">Singer & Actor & YouTuber</span>
+        </div>
+
+        <div class="media-buttons">
+            <a href="#" style="background: #4267b2" class="link">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" style="background: #1da1f2" class="link">
+                <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="#" style="background: #e1306c" class="link">
+                <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="#" style="background: #ff0000" class="link">
+                <i class="bx bxl-youtube"></i>
+            </a>
+        </div>
+
+        <div class="buttons">
+            <button class="button">Subscribe</button>
+            <button class="button">Message</button>
+        </div>
+
+        <div class="analytics">
+            <div class="data">
+                <i class="bx bx-heart"></i>
+                <span class="number">60k</span>
+            </div>
+            <div class="data">
+                <i class="bx bx-message-rounded"></i>
+                <span class="number">20k</span>
+            </div>
+            <div class="data">
+                <i class="bx bx-share"></i>
+                <span class="number">12k</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
